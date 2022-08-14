@@ -30,6 +30,14 @@ Mencione as ferramentas que você usou para criar seu projeto
 * [JavaScript](https://rometools.github.io/rome/)
 * [VSCode](https://code.visualstudio.com/)
 
+## 🖥️ Demonstração
+
+<div align="center" >
+
+![](/img/animated-pokedex.gif)
+
+</div>
+
 ## 🖇️ Colaborando
 
 Caso queira colaborar ou tenha alguma sugestão, entre em contato comigo, podemos conversar e trocar algumas ideias, ficarei muito feliz
