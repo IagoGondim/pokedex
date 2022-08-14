@@ -5,9 +5,74 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="icon" href="./favicons/favicon-16x16.png">
+  <link rel="stylesheet" href="/css/index.css">
+
+  <script src="/js/colors.js"></script>
+  <script defer src="/js/script.js"></script>
+
   <title>Pokedex</title>
 </head>
 <body>
-  
+  <main>
+    <img src="#" alt="pokemon" class="pokemon__img">
+    <h1 class="pokemon__data  spc-between">
+      <span class="pokemon__number"></span> -
+      <span class="pokemon__name"></span>
+    </h1>
+    <form class="form">
+      <input type="search" class="input__search " placeholder="Name or Number" required>
+    </form>
+    <img class="pokedex__img" src="/img/pokedex1.png" alt="pokedex">
+    <div class="buttons">
+      <button class="button btn-prev ">Prev &lt;</button>
+      <button class="button btn-next ">Next &gt;</button>
+    </div>
+    <section class="pokemon__info">
+      <div class="line-hor">
+        <div class="pokemon__height pad spc-between fs-700 flex">
+          <p>Height</p>
+          <ul class="height">
+            <li class="height__points no-list-style fs-400"></li>
+          </ul>
+        </div>
+      </div>
+      <div class="line-hor">
+        <div class="pokemon__weight pad spc-between fs-700 flex">
+          <p>Weight</p>
+          <ul class="weight">
+            <li class="weight__points no-list-style fs-400"></li>
+          </ul>
+        </div>
+      </div>
+      <div class="line-hor"></div>
+        <div class="margin-top pad fs-700">
+          <p class="topic-pokedex">Status</p>
+          <ul class="stats grid">
+            <li class="hp jus-left fs-400 flex"></li>
+            <li class="atk jus-left fs-400 flex"></li>
+            <li class="def jus-left fs-400 flex"></li>
+            <li class="specialAtk jus-left fs-400 flex"></li>
+            <li class="specialDef jus-left fs-400 flex"></li>
+            <li class="spd fs-400 jus-left flex"></li>
+          </ul>
+        </div>
+      <div class="line-hor"></div>
+        <div class="margin-top pad spc-between fs-700">
+          <p class="topic-pokedex">Abilities</p>
+          <ul class="abilities grid">
+            <li class="abilityeOne jus-center fs-400 flex"></li>
+            <li class="abilityTwo jus-center fs-400 flex"></li>
+          </ul>
+        </div>
+      <div class="line-hor"></div>
+        <div class="margin-top pad spc-between fs-700">
+          <p class="topic-pokedex">Types</p>
+          <ul class="types grid ">
+            <li class="typeOne box grass jus-center fs-400 flex"></li>
+            <li class="typeTwo box poison jus-center fs-400 flex"></li>
+          </span>
+        </div>
+    </section>
+  </main>
 </body>
 </html>
