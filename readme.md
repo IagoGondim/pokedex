@@ -32,6 +32,11 @@ Mencione as ferramentas que você usou para criar seu projeto
 
 ## 🖥️ Demonstração
 
+Através desse link é possivel acessar a pokedex em execução
+
+````
+URL da aplicação: https://62f8def89338415c6d8aa411--cool-alpaca-c83ca6.netlify.app/
+````
 <div align="center" >
 
 ![](/img/animated-pokedex.gif)
@@ -41,6 +46,10 @@ Mencione as ferramentas que você usou para criar seu projeto
 ## 🖇️ Colaborando
 
 Caso queira colaborar ou tenha alguma sugestão, entre em contato comigo, podemos conversar e trocar algumas ideias, ficarei muito feliz
+
+## ✒️ To do list
+
+Responsividade mobile - 🚀 **Em construção**
 
 ## ✒️ Autores
 
