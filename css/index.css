@@ -35,68 +35,68 @@ main{
   font-size: var(--ff-400);
   font-weight: normal;}
 
-  .jus-left{
-    margin-left: 6%;
-    justify-content: left;
+.jus-left{
+  margin-left: 6%;
+  justify-content: left;
   }
   
-  .margin-top{
-    margin-top: -12%;
+.margin-top{
+  margin-top: -12%;
   }
   
-  .grid{
-    display: grid;
-    grid-template-columns: repeat(2, 2fr);
-    grid-column-gap: 1px;
-    grid-row-gap: 2%;
-    text-align: center;
-  }
-  
-  .flex{
-    display: flex;
-  }
-  .spc-between {
-    justify-content: space-between;
-  }
-  
-  .no-list-style{
-    list-style: none;
-  }
-  
-  .topic-pokedex{
-    text-align: start;
-  }
-  
-  .jus-end{
-    justify-content: end;
-  }
-  
-  .line-hor{
-    width: 95%;
-    height: 1.6rem;
-    border-width: 0;
-    border-top-width: 0.1rem;
-    border-color: #aadbee;
-    border-style: solid;
-    border-top-left-radius: 9999px;
-    transform: skewX(-30deg);
-  }
-  
-  .line-hor > *{
-    transform: skewX(30deg);
-  }
-  .pad{
-    padding: 0.1rem 1rem; 
-  }
-  
-  .jus-center{
-    justify-content: center;
-  }
-  
-  .box{
-    border: 1px solid normal;
-    border-radius: 10px;
-  }
+.grid{
+display: grid;
+grid-template-columns: repeat(2, 2fr);
+grid-column-gap: 1px;
+grid-row-gap: 2%;
+text-align: center;
+}
+
+.flex{
+  display: flex;
+}
+.spc-between {
+  justify-content: space-between;
+}
+
+.no-list-style{
+  list-style: none;
+}
+
+.topic-pokedex{
+  text-align: start;
+}
+
+.jus-end{
+  justify-content: end;
+}
+
+.line-hor{
+  width: 95%;
+  height: 1.6rem;
+  border-width: 0;
+  border-top-width: 0.1rem;
+  border-color: #aadbee;
+  border-style: solid;
+  border-top-left-radius: 9999px;
+  transform: skewX(-30deg);
+}
+
+.line-hor > *{
+  transform: skewX(30deg);
+}
+.pad{
+  padding: 0.1rem 1rem; 
+}
+
+.jus-center{
+  justify-content: center;
+}
+
+.box{
+  border: 1px solid normal;
+  border-radius: 10px;
+}
 
 .pokedex__img{
   border-bottom-left-radius: 15px;
@@ -189,4 +189,27 @@ main{
 }
 
 
+@media (max-width: 480px) {
+  :root {
+    --ff-700: 0.55rem;
+    --ff-400: 0.45rem;
+  }
+  .margin-top{
+    margin-top: -10%;
+  }
+  .line-hor{
+    width: 90%;
+    height: 1.2rem;
+    border-width: 0;
+    border-top-width: 0.05rem;
+    border-color: #aadbee;
+    border-style: solid;
+    border-top-left-radius: 9999px;
+    transform: skewX(-30deg);
+  }
+  
+  .line-hor > *{
+    transform: skewX(30deg);
+  }  
+}
 
