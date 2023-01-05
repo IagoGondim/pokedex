@@ -35,7 +35,7 @@ Mencione as ferramentas que você usou para criar seu projeto
 Através desse link é possivel acessar a pokedex em execução
 
 ````
-URL da aplicação: https://62f8def89338415c6d8aa411--cool-alpaca-c83ca6.netlify.app/
+https://62f8def89338415c6d8aa411--cool-alpaca-c83ca6.netlify.app/
 ````
 <div align="center" >
 
